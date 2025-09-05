@@ -1,6 +1,7 @@
 package controle;
 
-import java.util.Scanner; 
+import java.util.Scanner;
+import dominio.NumeroArray;
 
 public class Principal {
     public static void main(String[] args) {
@@ -10,8 +11,8 @@ public class Principal {
         // Declara um vetor de inteiros com 10 posições
         int[] vetor = new int[10];
 
-        // Pede ao usuário que digite os números
-        System.out.println("Digite 20 números inteiros:"); // <-- aqui está pedindo 20, mas o vetor tem 10 posições
+        // Pede ao usuário que digite os números (corrigido: agora pede 10, não 20)
+        System.out.println("Digite 10 números inteiros:");
         for (int i = 0; i < vetor.length; i++) {
             // Solicita o número correspondente à posição atual
             System.out.print("Número " + (i + 1) + ": ");

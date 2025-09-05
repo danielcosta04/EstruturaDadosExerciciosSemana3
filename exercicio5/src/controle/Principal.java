@@ -1,6 +1,7 @@
 package controle;
 
-import java.util.Scanner; 
+import dominio.NumeroArray; // Importa a classe NumeroArray do pacote dominio
+import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {

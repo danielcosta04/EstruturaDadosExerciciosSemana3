@@ -1,8 +1,6 @@
 package dominio;
 
-import java.util.Scanner;
-
-class NumeroArray {
+public class NumeroArray {
     // Atributo que armazena o array de números inteiros
     private int[] numeros;
 
@@ -32,7 +30,7 @@ class NumeroArray {
         System.out.println("Quantidade de ímpares: " + impares);
     }
 
-    // Método opcional para imprimir todos os elementos do array
+    // Método para imprimir todos os elementos do array
     public void imprimirArray() {
         System.out.print("Array digitado: ");
         

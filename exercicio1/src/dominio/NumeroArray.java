@@ -1,8 +1,6 @@
 package dominio;
 
-import java.util.Scanner;
-
-class NumeroArray {
+public class NumeroArray {
     // Atributo que armazena o array de números inteiros
     private int[] numeros;
 
@@ -44,3 +42,4 @@ class NumeroArray {
         System.out.println(); // quebra de linha no final da impressão
     }
 }
+
